@@ -1,0 +1,97 @@
+*
+{margin: 0; padding: 0;}
+
+header.home {background-image: url(pics/MainBackground.jpg); height: 100vh; background-size: cover; background-position: center;}
+header.services {background-image:url(pics/Editing1.jpg); height: 100vh; background-size: cover; background-position: center; }
+header.AboutUs {background-image: url(pics/Keyboard.jpg); height: 100vh; background-size: cover; background-position: center;}
+header.pricelist {background-image: url(pics/pricelist.jpg); height: 100vh; background-size: cover; background-position: center;}
+header.contact {background-image: url(pics/contact.jpeg); height: 100vh; background-size: cover; background-position: center;}
+header.faq {background-image: url(pics/faq.jpg); height: 100vh; background-size: cover; background-position: center;}
+
+footer {background-color: transparent; color: #BACAF4; padding:10px; text-align: center; clear:both; position: fixed; bottom:0;}
+
+.main-nav {float: right; list-style: none; margin-top: 30px; }
+.main-nav li { display: inline-block;}
+.main-nav li a {color: white; text-decoration: none; padding: 5px 20px; font-family: "Roboto", sans-serif; font-size: 15px;}
+.main-nav li.active a {border: 1px solid white;}
+.main-nav li a:hover {border: 1px solid white;}
+.logo img {width: 150px; height: auto; float: left; margin-left:10px; margin-top: 10px;}
+
+body {font-family: monospace; background-color: black;}
+
+.row {max-width: 1900px; margin: auto;}
+.mainpage {position: absolute; width: 1200px; margin-left:0; margin-top: 0;}
+h1.home {color: white; text-transform: uppercase; font-size: 70px; text-align: center; padding-top:275px; padding-left:735px;  text-shadow: 4px 4px black; }
+h1.services {color:white; text-transform: uppercase; font-size: 70px; text-align: center; padding-top:100px; padding-right:180px; text-shadow: 4px 4px black;}
+h1.AboutUs {color:white; text-transform: uppercase; font-size: 70px; text-align: center; padding-top:100px; padding-right:180px; text-shadow: 4px 4px black;}
+h1.pricelist {color:white; text-transform: uppercase; font-size: 70px; text-align: center; padding-top: 100px; padding-right: 180px; text-shadow: 4px 4px black;}
+h1.contact {color:white; text-transform: uppercase; font-size: 70px; text-align: center; padding-top: 100px; padding-right: 180px; text-shadow: 4px 4px black;}
+h1.faq {color:white; text-transform: uppercase; font-size: 70px; text-align: center; padding-top: 100px; padding-right: 180px; text-shadow: 4px 4px black;}
+
+#textBoxServices {background-color: black; width:500px; margin:0 auto; border-style: solid; border-radius: 20px; padding: 10px; border-width: 4px; color: white; text-align: center; font-size: 20px;
+font-family: "Roboto", sans-serif;}
+#videoServices {padding-left: 40px; padding-top: 40px; margin: 0px 0px 0px 50px;}
+#textAboutUs {background-color: black; width: 500px; margin: 0 auto; padding: 10px; color: white; text-align: center; font-size: 20px; font-family: "Roboto", sans-serif; border-style: solid; border-radius: 20px;
+border-width: 4px;}
+#textContact {background-color: black; width: 500px; margin: 0 auto; padding: 10px; color: white; text-align: center; font-size: 20px; font-family: "Roboto", sans-serif; border-style: solid; border-radius: 20px; border-width: 4px;}
+#textFaq {background-color: black; width: 500px; margin: 0 auto; padding: 10px; color: white; text-align: left; font-size: 20px; font-family: "Roboto", sans-serif; border-style: solid; border-radius: 20px;}
+ul.listFaq {margin-left: 20px; line-height: 25px; margin-bottom:1.5rem;}
+
+.button {margin-top: 30px; margin-left: 800px;}
+.btn {border: 1px solid white; padding: 10px 30px; color: white; text-decoration: none; margin-right: 5px; font-size: 13px; text-transform: uppercase;}
+.btn-one { font-family: "Roboto", sans-serif; background-color: black; opacity: 0.85;}
+.btn-two {font-family: "Roboto", sans-serif; background-color: black; opacity: 0.85;}
+.btn-one:hover {background-color:darkmagenta; transition: all 0.5s ease-out;}
+.btn-two:hover {background-color:darkorange; transition: all 0.5s ease-out;}
+
+.btn2 {border: 1px solid white; padding: 30px 90px; color: white; text-decoration: none; margin-right: 5px; font-size: 39px; text-transform: uppercase;}
+.button2 {margin-top: 60px; margin-left: 735px;}
+.btn2-services {font-family: "Roboto", sans-serif; background-color: black; opacity: 0.85;}
+.btn2-services:hover {background-color: darkred; transition: all 0.5s ease-out;}
+
+.form{font: 95% Roboto, sans-serif; max-width: 250px; margin: 10px auto; padding: 16px; background: white;}
+.form input[type="text"], .form input[type="email"], .form textarea, .form select {outline: none; box-sizing: border-box; width: 100%; background: white; margin-bottom: 4%; border: 2px solid grey; padding: 3%;
+color: black; font: 95% Roboto, sans-serif;}
+.form input[type="submit"], .form input[type="button"]{width: 100%; padding: 3%; background: #4AF7CC; border-bottom: 2px solid #4AF7CC; border-top-style: none; border-right-style: none;
+border-left-style: none; color: white;}
+.form input[type="submit"]:hover, .form input[type="button"]:hover{background: #2EBC99;}
+
+
+@media screen and (min-width: 900px) {
+.background {padding: 0 0 25px;}}
+
+.container {margin: 0 auto; padding: 50px 0 0; max-width: 960px; width: 90%;}
+.panel {background-color: #DAEFED; border-radius: 20px; padding: 15px 25px; position: relative; width: 100%;}
+.pricing-table {display: flex; flex-direction: column;}
+
+@media screen and (min-width: 900px) {
+    
+.pricing-table {flex-direction: row;}}
+.pricing-table {text-align: center; text-transform: uppercase;}
+.pricing-plan {border-bottom: 1px solid white;padding: 25px;}
+.pricing-plan:last-child {border-bottom: none;}
+
+@media screen and (min-width: 900px) {
+.pricing-plan {border-bottom: none; border-right: 1px solid white; flex-basis: 100%;padding: 25px 50px;}
+.pricing-plan:last-child {border-right: none;}}
+.pricing-img {margin-bottom: 25px;max-width: 50%;}
+.pricing-header {color: black;font-weight: 600;letter-spacing: 1px;}
+.pricing-features {color: black; font-weight: 600; letter-spacing: 1px; margin: 50px 0 25px;}
+.pricing-features-item {border-top: 1px solid white; font-size: 12px; line-height: 1.5;padding: 15px 0;}
+.pricing-features-item:last-child {border-bottom: 1px solid white;}
+.pricing-price {color: black; display: block; font-size: 32px; font-weight: 700;}
+.pricing-button {border: 1px solid black; padding: 15px 30px; color: black; text-decoration: none; margin-right: 5px; font-size: 13px; text-transform: uppercase; line-height: 100px;}
+.pricing-button:hover {background-color: darkmagenta; transition: all 0.5s ease-out;}
+
+@media screen and (max-width:610px) {
+    .main-nav, .main nav li, .main nav li a {float:none; width:100%;}
+    .main-nav li a:hover, .main-nav li.active a {border:none;}
+    main {margin-left:0;}
+    nav ul li {display:inline-block;} 
+    nav a {margin:0; padding:0.3em; font-size:1.5em; border-radius:0; border-bottom:1px solid #000; display:block;} 
+    main {margin-left:0;}
+    header {height:100px; background-size:auto 100px;}
+    
+
+
+    
